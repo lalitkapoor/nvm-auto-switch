@@ -1,5 +1,9 @@
 if [ "$(command -v nvm)" == "" ]; then
-  echo "could not find nvm"
+  if [ -s "$NVM_DIR/nvm.sh" ]; then
+    source "$NVM_DIR/nvm.sh"
+  else
+    echo "could not find nvm"
+  fi
 fi
 
 # based on https://github.com/creationix/nvm/issues/603#issuecomment-88617225
