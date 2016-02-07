@@ -8,7 +8,7 @@ fi
 
 # based on https://github.com/creationix/nvm/issues/603#issuecomment-88617225
 nvm_auto_switch() {
-  local NVM_RC_VERSION
+  local NVM_RC_FILE
   local DEFAULT_VERSION
   local REAL_VERSION
   NVM_RC_FILE=`nvm_find_nvmrc`
