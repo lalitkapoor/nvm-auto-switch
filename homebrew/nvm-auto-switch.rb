@@ -2,8 +2,8 @@ require 'formula'
 
 class NvmAutoSwitch < Formula
   homepage 'https://github.com/lalitkapoor/nvm-auto-switch#readme'
-  url 'https://github.com/lalitkapoor/nvm-auto-switch/archive/v0.1.0.tar.gz'
-  sha256 '7e880d409ec163f738088779149206477bf44f4829bea2a64cdb22aba0578a1c'
+  url 'https://github.com/lalitkapoor/nvm-auto-switch/archive/v0.1.1.tar.gz'
+  sha256 '607745f92f3e1813305e6e8edef785d59540c7a398abe7bdfdbda5cae6d9dd38'
   head "https://github.com/lalitkapoor/nvm-auto-switch.git"
 
   bottle :unneeded
